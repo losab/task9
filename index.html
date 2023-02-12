@@ -13,11 +13,18 @@
     <div class="flex-box">
         <label class="label" for="">To Do List</label>
         <ul class="list">
-          <span class="absolute">Nothing here yet...</span>
+          <!-- <span class="absolute">Nothing here yet...</span> -->
+          <span class="absolute" id="spinner"><i class="fa-solid fa-spinner"></i></span>
         </ul>
         <div class="add-items">
         <input type="text" id="text" placeholder="Add To The List">
-        <button><i class="fa-solid fa-plus"></i></button>
+        <button id="add"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div class="actions">
+        <button class="action-button" id="">delete</button>
+        <button class="action-button" id="clear-all">clear all</button>
+        <button class="action-button" id="">save</button>
+        <button class="action-button" id="fetch">fetch</button>
         </div>
         
     </div>
